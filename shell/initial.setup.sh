@@ -19,7 +19,7 @@ ORANGE='\033[0;33m'
 NC='\033[0m' # No Color
 
 CASKS=('java' 'google-chrome' 'google-drive' 'google-hangouts' 'opera' 'vlc' 'jdownloader' 'evernote' 'iterm2' 'sublime-text' 'skype' 'whatsapp' 'mkvtools' 'kodi' 'deluge' 'android-platform-tools' 'macpass');
-FORMULAS=('awscli' 'zsh' 'zsh-autosuggestions' 'zsh-completions' 'zsh-git-prompt' 'zsh-history-substring-search' 'zsh-navigation-tools' 'zsh-syntax-highlighting' 'zsh-lovers' 'ansible' 'terraform' 'python3' 'shellcheck' 'dnsmasq' 'ipcalc' 'git' 'bash-completion' 'jq' 'tree')
+FORMULAS=('awscli' 'git' 'zsh' 'zsh-autosuggestions' 'zsh-completions' 'zsh-git-prompt' 'zsh-history-substring-search' 'zsh-navigation-tools' 'zsh-syntax-highlighting' 'zsh-lovers' 'ansible' 'terraform' 'python3' 'shellcheck' 'dnsmasq' 'ipcalc' 'git' 'bash-completion' 'jq' 'tree')
 
 echo -e "${ORANGE}Updating brew...${NC}"
 brew update
